@@ -1,5 +1,17 @@
+
 <body>
-  <p>Puppy Name: <%= @name %></p>
-  <p>Puppy Breed: <%= @breed %></p>
-  <p>Puppy Age: <%= @age %></p>
+  <p>
+    Puppy Name: <%= @new_puppy.name.to_s %>
+    </p>
+<p>
+  Puppy Breed:
+  <%= @new_puppy.breed.to_s %>
+  </p>
+
+  <p>
+    Age:
+    <%= @new_puppy.age%> months
+    </p>
+
+
 </body>
